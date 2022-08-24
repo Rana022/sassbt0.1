@@ -2,9 +2,18 @@
 
 #navigation{
     margin-bottom: -100px;
+    @include media-breakpoint-down(lg){
+    margin-bottom: 0;
+    background-color: $primary;
+    }
     .nav-link{
-        color: $mwhite;
+        color: $mgray;
         font-weight: bold;
         font-size: 16px;
+    }
+    button{
+        i{
+            color: $mgray;
+        }
     }
 }
