@@ -1,0 +1,25 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+//style
+#blog{
+    h5{
+    @include subtitle;
+    }
+    h2{
+        @include title;
+    }
+    margin-bottom: 50px;
+    .service--card{
+        img{
+            margin-bottom: 20px;
+            width: 100%;
+        }
+        strong, span{
+            font-style: italic;
+        }
+        span{
+            margin-left: 10px;
+        }
+    }
+}

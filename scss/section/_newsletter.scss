@@ -1,0 +1,31 @@
+@use '../custom' as *;
+
+//style
+#newsletter{
+    background: url(/images/hero-cover.png);
+    padding: 50px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    h2{
+        color: $mwhite;
+        text-transform: uppercase;
+    }
+    .letter-form{
+        display: flex;
+        justify-items: center;
+        align-content: center;
+        justify-content: center;
+        margin-top: 20px;
+        input{
+           width: 50%;
+        border-radius: 0;
+        }
+        .mbtn-2{
+            border-radius: 0;
+            background-color: $green;
+            color: $mgray;
+            border-color: 2px solid $primary;
+            margin: 0;
+        }
+    }
+}

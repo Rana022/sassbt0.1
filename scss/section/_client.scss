@@ -1,0 +1,29 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+//style
+#client{
+    h2{
+        @include title;
+    }
+    background-color: $primary;
+    padding: 50px 0;
+    .owl-carousel{
+        .col-md-4{
+            width: 100%;
+            padding: .4rem;
+            .card{
+                padding: .6rem 1.2rem;
+                h5{
+                    font-style: italic;
+                    font-weight: 400;
+                }
+                img{
+                    width: 50px;
+                    height: 50px;
+                    margin: auto auto;
+                }
+            }
+        }
+    }
+}

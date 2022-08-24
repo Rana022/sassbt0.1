@@ -1,0 +1,39 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+//style
+#services{
+    padding: 50px 0;
+    h5{
+       @include subtitle;
+    }
+    h2{
+        @include title;
+    }
+    .service--card{
+        img{
+            width: 100%;
+        }
+        h5{
+            margin-top: 15px;
+            color: $mblack;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        .service-btn{
+            a{
+                text-decoration:none;
+                color:$mblack;
+                border-style:solid;
+                border-width: 0px 0px 1px 0px;
+                padding:6px;
+                font-weight: bold;
+                i{
+                    .fa-solid{
+                        margin-left: 15px!important;
+                    }
+                }
+            }
+        }
+    }
+}

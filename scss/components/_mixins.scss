@@ -1,0 +1,24 @@
+@use '../custom' as *;
+
+//mixins
+@mixin title {
+    font-size: 2.1rem;
+    color: $mgray;
+    text-transform: capitalize;
+    padding: 0 15rem;
+    margin-top: .8rem;
+    @include media-breakpoint-down(lg) {
+    padding: 0 5rem;
+    font-size: 1.6rem;
+    }
+    @include media-breakpoint-down(sm) {
+        padding: 0 3rem;
+        font-size: 1.2rem;
+        }
+}
+@mixin subtitle {
+    font-size: 1.3rem;
+    line-height: 2px;
+    color: $mgray;
+    font-style: italic
+}

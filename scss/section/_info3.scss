@@ -1,0 +1,12 @@
+@use '../custom' as *;
+
+//style
+#info3{
+    margin: 50px 0;
+    .accordion-item{
+        button{
+            color: $mblack;
+            border-bottom: 1px solid #C4C4C4;
+        }
+    }
+}

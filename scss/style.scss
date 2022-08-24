@@ -1,0 +1,16 @@
+@use './custom' as *;
+
+//components
+@use './components/mixins';
+
+// SEctions
+@use './section/nav';
+@use './section/hero';
+@use './section/services';
+@use './section/info1';
+@use './section/client';
+@use './section/info3';
+@use './section/blog';
+@use './section/newsletter';
+@use './section/footer';
+

@@ -1,0 +1,23 @@
+//color
+$dark-blue: #0A2640;
+$green: #65E4A3;
+$mwhite: #ffffff;
+$mgray: #777777;
+$mlightgray: #f1f1f1;
+$mblack: #000000;
+
+$primary: $dark-blue;
+$secondary: $green;
+$accordion-color: $mwhite;
+$accordion-bg: $primary;
+
+$accordion-button-color: $mblack;
+$accordion-button-bg: $mwhite;
+$accordion-button-active-bg: $mwhite;
+$accordion-button-active-color: $mblack;
+$accordion-border-width: 0;
+
+h2, h5, p{
+    color: $mblack;
+}
+@import '../node_modules/bootstrap/scss/bootstrap.scss';

@@ -1,0 +1,18 @@
+@use '../custom' as *;
+
+//style
+footer{
+    background-color: $primary;
+    color: $mgray;
+    p{
+        color: $mwhite;
+        font-size: 18px;
+        font-style: italic;
+        margin-top: 10px;
+    }
+    h5{
+        color: $mgray;
+        text-transform: uppercase;
+        font-style: italic;
+    }
+}
